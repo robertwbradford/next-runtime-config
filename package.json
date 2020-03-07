@@ -1,0 +1,19 @@
+{
+  "name": "next-runtime-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "API_URL=https://example.com/DEV/api next",
+    "build": "API_URL=https://example.com/BUILD/api next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC"
+}
